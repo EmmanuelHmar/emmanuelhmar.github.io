@@ -8,7 +8,6 @@ Hi friend,
 
 As I begin my journey I am reminded of how little we know in the beginning.
 
-But there is no end to learning. [Mizo](http://allmizo.com){:target="_blank"} 
+But there is no end to learning.
 
-You can find my Github at:
-{% include icon-github.html username="emmanuelhmar" %}
+You can find my Github at:![Github Logo](https://assets-cdn.github.com/images/modules/open_graph/github-mark.png)[emmanuelhmar](https://github.com/emmanuelhmar){:target="_blank"}
