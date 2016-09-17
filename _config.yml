@@ -16,7 +16,7 @@
 title: Emmanuel Hmar
 email: eman.hmar@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Hi, nice to meet you. And have a nice day.
+  Hi, have a nice day.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://example.com" # the base hostname & protocol for your site
 twitter_username: 
