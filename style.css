@@ -1,7 +1,7 @@
 
 /* Changes for the code embedded in the table */
 .wholeTable{
-    border: 5px white solid;
+    border: 0;
     width: 85%;
 }
 
@@ -9,7 +9,7 @@
 body{
     background-image: url(img_gray.jpg);
     background-color: gray;
-    font-size: 16px;
+    font-size: 18px;
     font-family: sans-serif;
 
 }
@@ -33,9 +33,12 @@ a:hover{
 }
 
 table{
+    background-image: url("img_gray.jpg");
     background-color:white;
     border-collapse: collapse;
-    border-spacing: 10px 50px;    
+    border-spacing: 10px 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 th, td{
@@ -43,6 +46,7 @@ th, td{
     padding: 8px;
     text-align: left;
     padding: 20px;
+    vertical-align: top;
 }
 
 /* Make the row to be zebra-striped */
@@ -54,33 +58,27 @@ tr:nth-child(even){
 .inlineBlock{
     display: inline-block;
     margin: 10px;
-    vertical-align: middle;
+    vertical-align: left;
 }
 
+/* Border for the inline objects */
 .inlineBlock.border {
     border: 1px ridge white;
     padding: 10px;      
 }
 
-.inlineBlockTwo{
-    display: inline;
-    margin: 10px;
-    border: 1px ridge white;
-}
-
+/* Quote divider */
 #quote{
     padding-top: 8px;
     text-align: center;
 }   
 
+/* Text for the quote divider */
 #quoteText {
     font-size: 26px;
-    
+    color: black;
 }
 
-#profileText{
-    font-size: 20px;
-}
 
 .myLists{
     display: inline-block;
@@ -91,8 +89,21 @@ tr:nth-child(even){
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
-    float: left;
-    border: 1px ridge white;
+    float: inherit;
+}
+
+#profileText{
+    font-size: 28px;
+    color: white;
+}
+
+table.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Hobbies {
+    vertical-align: text-top;
 }
 
 second {
