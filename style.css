@@ -1,10 +1,8 @@
-
-/* Changes for the code embedded in the table */
+/*The table that contains the entire body*/
 .wholeTable{
     border: 0;
     width: 85%;
 }
-
 
 body{
     background-image: url(img_gray.jpg);
@@ -12,11 +10,6 @@ body{
     font-size: 18px;
     font-family: sans-serif;
 
-}
-
-p{
-    color:white;
-    font-size:18px;
 }
 
 h1{
@@ -28,10 +21,7 @@ a:hover{
     background-color: red; 
 }
 
-.one{
-    border: 5px solid aqua;
-}
-
+/* Styling for the table */
 table{
     background-image: url("img_gray.jpg");
     background-color:white;
@@ -41,6 +31,7 @@ table{
     margin-right: auto;
 }
 
+/* Style for the heading and column of the table */
 th, td{
     border: 1px solid black;
     padding: 8px;
@@ -50,7 +41,8 @@ th, td{
 }
 
 /* Make the row to be zebra-striped */
-tr:nth-child(even){
+/* They have to have the class "zebra" */
+.zebra tbody tr:nth-child(even){
     background-color:gray;
 }
 
@@ -80,11 +72,6 @@ tr:nth-child(even){
 }
 
 
-.myLists{
-    display: inline-block;
-    font-size: 18px;
-}
-
 #profilePic{
     margin-top: 10px;
     margin-bottom: 10px;
@@ -96,29 +83,6 @@ tr:nth-child(even){
     font-size: 28px;
     color: white;
 }
-
-table.center{
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#Hobbies {
-    vertical-align: text-top;
-}
-
-second {
-    width: 100%;
-}
-
-float{
-    float: left;
-    margin-right: 50px;
-}
-
-div{
-    clear: left;
-}
-
 
 /* Bold and color the text red for some specific words */
 .boldWords{
