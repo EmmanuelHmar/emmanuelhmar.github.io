@@ -12,6 +12,14 @@ body{
 
 }
 
+.center{
+    margin:auto;
+}
+
+#zebraheader{
+    text-align: center;
+}
+
 /* Title of the page inside the table */
 #title {
     font-size: 32px;
@@ -41,7 +49,7 @@ table{
 
 /* Style for the heading and column of the table */
 th, td{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 8px;
     text-align: left;
     padding: 20px;
