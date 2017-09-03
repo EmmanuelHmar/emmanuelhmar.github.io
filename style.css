@@ -12,13 +12,21 @@ body{
 
 }
 
-h1{
+/* Title of the page inside the table */
+#title {
+    font-size: 32px;
     text-decoration: underline;
     text-align: center;
 }
 
+/* Color when hovered over link */
 a:hover{
     background-color: red; 
+}
+
+/* Color after link is visited */
+a:visited{
+    /* background-color: white; */
 }
 
 /* Styling for the table */
@@ -44,19 +52,6 @@ th, td{
 /* They have to have the class "zebra" */
 .zebra tbody tr:nth-child(even){
     background-color:gray;
-}
-
-/* Class to make specific div display side by side */
-.inlineBlock{
-    display: inline-block;
-    margin: 10px;
-    vertical-align: left;
-}
-
-/* Border for the inline objects */
-.inlineBlock.border {
-    border: 1px ridge white;
-    padding: 10px;      
 }
 
 /* Quote divider */
@@ -89,6 +84,3 @@ th, td{
     color: red;
     font-weight: bold;
 }
-
-
-
