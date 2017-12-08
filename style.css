@@ -47,7 +47,7 @@ table{
 /* Style for the heading and column of the table */
 th, td{
     /* border: 1px solid black; */
-    padding: 8px;
+    padding: 20px;
     text-align: left;
     vertical-align: top;
 }
