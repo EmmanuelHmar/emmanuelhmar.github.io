@@ -27,7 +27,7 @@ body{
 
 /* Color when hovered over link */
 a:hover{
-    background-color: red; 
+    background-color: palevioletred;
 }
 
 /* Color after link is visited */
