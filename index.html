@@ -2,19 +2,19 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> E's Home Page </title>
     <link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 
 <body>
 
-<!--TODO 1: Make it responsive-->
-<!--TODO 2: Fix the navbars and add content-->
-<div class="topnav">
-    <a href="index.html">Home</a>
+<!--TODO 1: Code is as is from W3C-->
+<div class="topnav" id="myTopNav">
+    <a href="index.html" class="active">Home</a>
     <a href="#">Resume</a>
     <a href="#projects">Projects</a>
-    <a class="icon" href="#">&#9776</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776</a>
 </div>
 
 <table class="wholeTable">
@@ -76,6 +76,19 @@
     <p>Proficient: Java, HTML, CSS</p>
     <p>Familiar: Javascript, Git</p>
 </div>
+
+
+<script>
+    function myFunction(){
+        var x = document.getElementById("myTopNav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
+
 </body>
 
 </html>
