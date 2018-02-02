@@ -1,14 +1,14 @@
 /*The table that contains the entire body*/
-.wholeTable{
-    border: 0;
-    width: 85%;
-}
+/*.wholeTable{*/
+    /*border: 0;*/
+    /*width: 85%;*/
+/*}*/
 
 .topnav {
     background-color: #333;
     overflow: hidden;
     position: fixed;
-    width: 85%;
+    /*width: 85%;*/
 }
 
 .topnav a{
@@ -66,9 +66,17 @@ body{
     font-family: sans-serif;
 }
 
-div .topnav{
+div{
+    margin-left: auto;
+    margin-right: auto;
     width: 85%;
 }
+
+/*div .topnav {*/
+    /*margin: auto;*/
+
+    /*width: 85%;*/
+/*}*/
 
 .center{
     margin:auto;
