@@ -4,13 +4,15 @@
     /*width: 85%;*/
 /*}*/
 
+/*Main Navigation Bar*/
 .topnav {
     background-color: #333;
     overflow: hidden;
-    position: fixed;
+    position: relative;
     /*width: 85%;*/
 }
 
+/*Links for the nav bar*/
 .topnav a{
     float: left;
     display: block;
@@ -22,7 +24,7 @@
 }
 
 .active {
-    background-color: aquamarine;
+    background-color: palevioletred;
     color:white;
 }
 
@@ -62,14 +64,20 @@
 
 body{
     background: gray url(img_gray.jpg);
-    font-size: 18px;
+    font-size: 17px;
     font-family: sans-serif;
+    margin: auto;
+    position: center;
 }
 
 div{
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     width: 85%;
+}
+
+h2{
+    color: lightgray;
+    text-decoration:underline;
 }
 
 /*div .topnav {*/
@@ -80,6 +88,7 @@ div{
 
 .center{
     margin:auto;
+    text-align: center;
 }
 
 .zebraheader{
@@ -104,21 +113,22 @@ a:visited{
 }
 
 /* Styling for the table */
-table{
-    background: white url("img_gray.jpg");
-    border-collapse: collapse;
-    border-spacing: 10px 50px;
-    margin-left: auto;
-    margin-right: auto;
-}
+/*table{*/
+    /*background: white url("img_gray.jpg");*/
+    /*border-collapse: collapse;*/
+    /*border-spacing: 10px 50px;*/
+    /*!*margin-left: auto;*!*/
+    /*!*margin-right: auto;*!*/
+    /*margin: auto;*/
+/*}*/
 
 /* Style for the heading and column of the table */
-th, td{
-    /* border: 1px solid black; */
-    padding: 20px;
-    text-align: left;
-    vertical-align: top;
-}
+/*th, td{*/
+    /*!* border: 1px solid black; *!*/
+    /*padding: 20px;*/
+    /*text-align: left;*/
+    /*vertical-align: top;*/
+/*}*/
 
 /* Make the row to be zebra-striped */
 /* They have to have the class "zebra" */
