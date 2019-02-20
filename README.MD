@@ -1,5 +1,4 @@
-Name: Emmanuel Hmar
-Github: EmmanuelHmar
+##Name: Emmanuel Hmar
+##Github: EmmanuelHmar
 
-
-Studying Computer Science at Georgia State University
+Site coded in HTML, CSS, JS

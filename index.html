@@ -4,97 +4,92 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> E's Home Page </title>
-    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 
 <body>
 
-<!--TODO 1: Fix the project alignment-->
-<div class="topnav" id="myTopNav">
-    <a href="index.html" class="active">Home</a>
-    <a href="#project">Projects</a>
-    <a href="#skills">Skills</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776</a>
-</div>
+    <!--TODO 1: Fix the project alignment-->
+    <div class="topnav" id="myTopNav">
+        <a href="index.html" class="active">Home</a>
+        <a href="#project">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776</a>
+    </div>
 
-<table class="center">
-    <tr>
-        <th colspan="3">
-            <h1 id="title"> This too shall pass </h1>
-        </th>
-    </tr>
+    <table class="center">
+        <tr>
+            <th colspan="3">
+                <h1 id="title"> This too shall pass </h1>
+            </th>
+        </tr>
 
-    <tr>
-        <td colspan="3">
-            <div id="profilePic" class="center">
-                <img src="flower.jpg" alt="Profile image">
-
-                <p id="profileText">
-                    Name: Emmanuel Hmar
-                </p>
-
-
-                <p>
-                    Currently a student at Georgia State University studying Computer Science.
-                </p>
-
-                <h4 style="text-align: left;">Find me at:</h4>
-                <ul style="text-align: left">
-                    <li><a href="http://emmanuelhmar.com" target="_blank">Personal site</a>
-                    </li>
-                    <li><a href="https://github.com/EmmanuelHmar" target="_blank">Github</a>
-                    </li>
-                </ul>
-            </div>
-        </td>
-    </tr>
-
-    <tr>
-        <td colspan="3">
-            <div id="quote">
-                <p id="quoteText">
-                    "Do not worry about tomorrow, for tomorrow will worry about itself."
-                </p>
-            </div>
-        </td>
-    </tr>
-</table>
-
-<div class="center">
-    <a name="project"></a>
-    <h2>Projects</h2>
-    <table>
         <tr>
             <td colspan="3">
-                <ul>
-                    <li>Test</li>
-                </ul>
+                <div id="profilePic" class="center">
+                    <img src="flower.jpg" alt="Profile image">
+
+                    <p id="profileText">
+                        Name: Emmanuel Hmar
+                    </p>
+
+
+                    <p>
+                        <strong>Graduation:</strong> December 2018 <br>
+                        <strong>Major:</strong> Computer Science
+                    </p>
+
+                    <h4 style="text-align: left;">Find me at:</h4>
+                    <ul style="text-align: left">
+                        <li><a href="http://emmanuelhmar.com" target="_blank">Personal site</a>
+                        </li>
+                        <li><a href="https://github.com/EmmanuelHmar" target="_blank">Github</a>
+                        </li>
+                    </ul>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="3">
+                <div id="quote">
+                    <p id="quoteText">
+                        "Do not worry about tomorrow, for tomorrow will worry about itself."
+                    </p>
+                </div>
             </td>
         </tr>
     </table>
 
-    <ul>
-        <li><p>Mizo - found on the Android <a href="https://play.google.com/store/apps/details?id=com.emmanuelhmar.mizo" target="_blank">Play Store</a></p>
-        </li>
-    </ul>
-
-    <a name="skills"></a>
-    <h2>Skills</h2>
-    <p>Proficient: Java, HTML, CSS</p>
-    <p>Familiar: Javascript, Git</p>
-</div>
+    <section class="center">
+        <a name="project"></a>
+        <h2>Projects</h2>
+                <h2>Mizo</h2>
+                <img src="mizoapp.png" alt="Mizo Android app" width="350" height="450" />
+                <p>Mizo - found on the Android <a href="https://play.google.com/store/apps/details?id=com.emmanuelhmar.mizo"
+                        target="_blank">Play Store</a></p>
+    </section>
 
 
-<script>
-    function myFunction(){
-        var x = document.getElementById("myTopNav");
-        if (x.className === "topnav") {
-            x.className += " responsive";
-        } else {
-            x.className = "topnav";
+    <section class="center">
+        <a name="skills"></a>
+        <h2>Skills</h2>
+        <p><span>Proficient: </span> Java, HTML, CSS</p>
+        <p><span>Familiar: </span> Javascript, PHP, Python, Git</p>
+        <p><span>Technologies: </span>Linux,Git, Android, Adobe</p>
+    </section>
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopNav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
         }
-    }
-</script>
+    </script>
 
 </body>
 
