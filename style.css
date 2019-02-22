@@ -1,7 +1,7 @@
 /*The table that contains the entire body*/
 /*.wholeTable{*/
-    /*border: 0;*/
-    /*width: 85%;*/
+/*border: 0;*/
+/*width: 85%;*/
 /*}*/
 
 /*Main Navigation Bar*/
@@ -13,7 +13,7 @@
 }
 
 /*Links for the nav bar*/
-.topnav a{
+.topnav a {
     float: left;
     display: block;
     color: #f2f2f2;
@@ -25,7 +25,7 @@
 
 .active {
     background-color: palevioletred;
-    color:white;
+    color: white;
 }
 
 .topnav .icon {
@@ -33,7 +33,7 @@
 }
 
 /*Hide all links besides "Home" when the screen < 600 pixels.*/
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {
         display: none;
     }
@@ -44,7 +44,7 @@
     }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
     .topnav.responsive {
         position: relative;
     }
@@ -62,7 +62,7 @@
     }
 }
 
-body{
+body {
     background: gray url(img_gray.jpg);
     font-size: 17px;
     font-family: sans-serif;
@@ -70,27 +70,27 @@ body{
     position: center;
 }
 
-div{
+div {
     margin: auto;
     width: 85%;
 }
 
-h2{
-    text-decoration:underline;
+h2 {
+    text-decoration: underline;
 }
 
 /*div .topnav {*/
-    /*margin: auto;*/
+/*margin: auto;*/
 
-    /*width: 85%;*/
+/*width: 85%;*/
 /*}*/
 
-.center{
-    margin:auto;
+.center {
+    margin: auto;
     text-align: center;
 }
 
-.zebraheader{
+.zebraheader {
     text-align: center;
 }
 
@@ -102,44 +102,44 @@ h2{
 }
 
 /* Color when hovered over link */
-a:hover{
+a:hover {
     background-color: palevioletred;
 }
 
 /* Color after link is visited */
-a:visited{
+a:visited {
     /* background-color: white; */
 }
 
 /* Styling for the table */
 /*table{*/
-    /*background: white url("img_gray.jpg");*/
-    /*border-collapse: collapse;*/
-    /*border-spacing: 10px 50px;*/
-    /*!*margin-left: auto;*!*/
-    /*!*margin-right: auto;*!*/
-    /*margin: auto;*/
+/*background: white url("img_gray.jpg");*/
+/*border-collapse: collapse;*/
+/*border-spacing: 10px 50px;*/
+/*!*margin-left: auto;*!*/
+/*!*margin-right: auto;*!*/
+/*margin: auto;*/
 /*}*/
 
 /* Style for the heading and column of the table */
 /*th, td{*/
-    /*!* border: 1px solid black; *!*/
-    /*padding: 20px;*/
-    /*text-align: left;*/
-    /*vertical-align: top;*/
+/*!* border: 1px solid black; *!*/
+/*padding: 20px;*/
+/*text-align: left;*/
+/*vertical-align: top;*/
 /*}*/
 
 /* Make the row to be zebra-striped */
 /* They have to have the class "zebra" */
-.zebra tbody tr:nth-child(even){
-    background-color:gray;
+.zebra tbody tr:nth-child(even) {
+    background-color: gray;
 }
 
 /* Quote divider */
-#quote{
+#quote {
     padding-top: 8px;
     text-align: center;
-}   
+}
 
 /* Text for the quote divider */
 #quoteText {
@@ -148,24 +148,24 @@ a:visited{
 }
 
 
-#profilePic{
+#profilePic {
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
     float: inherit;
 }
 
-#profileText{
+#profileText {
     font-size: 28px;
     color: white;
 }
 
 /* Bold and color the text red for some specific words */
-.boldWords{
+.boldWords {
     color: red;
     font-weight: bold;
 }
 
-span{
-    color:white;
+span {
+    color: white;
 }
