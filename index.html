@@ -18,51 +18,52 @@
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776</a>
     </div>
 
-    <table class="center header">
-        <tr>
-            <th colspan="3">
-                <h1 id="title"> This too shall pass </h1>
-            </th>
-        </tr>
+    <section class="header">
+        <table class="center">
+            <tr>
+                <th colspan="3">
+                    <h1 id="title"> This too shall pass </h1>
+                </th>
+            </tr>
 
-        <tr>
-            <td colspan="3">
-                <div id="profilePic" class="center">
-                    <img src="flower.jpg" alt="Profile image">
+            <tr>
+                <td colspan="3">
+                    <div id="profilePic" class="center">
 
-                    <p id="profileText">
-                        Name: Emmanuel Hmar
-                    </p>
+                        <p id="profileText">
+                            Name: Emmanuel Hmar
+                        </p>
 
 
-                    <p>
-                        <strong>Graduation:</strong> December 2018 <br>
-                        <strong>Major:</strong> Computer Science
-                    </p>
+                        <p>
+                            <strong>Graduation:</strong> December 2018 <br>
+                            <strong>Major:</strong> Computer Science
+                        </p>
 
-                    <h4 style="text-align: left;">Find me at:</h4>
-                    <ul style="text-align: left">
-                        <li><a href="http://emmanuelhmar.com" target="_blank">Personal site</a>
-                        </li>
-                        <li><a href="https://github.com/EmmanuelHmar" target="_blank">Github</a>
-                        </li>
-                    </ul>
-                </div>
-            </td>
-        </tr>
+                        <h4 style="text-align: left;">Find me at:</h4>
+                        <ul style="text-align: left">
+                            <li><a href="http://emmanuelhmar.com" target="_blank">Personal site</a>
+                            </li>
+                            <li><a href="https://github.com/EmmanuelHmar" target="_blank">Github</a>
+                            </li>
+                        </ul>
+                    </div>
+                </td>
+            </tr>
 
-        <tr>
-            <td colspan="3">
-                <div id="quote">
-                    <p id="quoteText">
-                        "Do not worry about tomorrow, for tomorrow will worry about itself."
-                    </p>
-                </div>
-            </td>
-        </tr>
-    </table>
+            <tr>
+                <td colspan="3">
+                    <div id="quote">
+                        <p id="quoteText">
+                            "Do not worry about tomorrow, for tomorrow will worry about itself."
+                        </p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </section>
 
-    <section class="center">
+    <section class="center project">
         <a name="project"></a>
         <h2>Projects</h2>
         <h2>Mizo</h2>
@@ -75,13 +76,14 @@
     <section class="center">
         <a name="skills"></a>
         <h2>Skills</h2>
-        <p><span>Proficient: </span> Java, HTML, CSS</p>
-        <p><span>Familiar: </span> Javascript, PHP, Python, Kotlin</p>
+        <p><span>Proficient: </span>Java, HTML, CSS</p>
+        <p><span>Familiar: </span>Javascript, PHP, Python, Kotlin</p>
         <p><span>Technologies: </span>Linux, Git, Android, Adobe</p>
     </section>
 
 
-    <script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./js/scripts.js">
         function myFunction() {
             var x = document.getElementById("myTopNav");
             if (x.className === "topnav") {
