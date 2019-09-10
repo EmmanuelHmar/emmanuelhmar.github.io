@@ -60,6 +60,7 @@ body {
     background-image: url(flower.jpg);
     background-size: cover;
     font-size: 17px;
+    color: black;
     font-family: sans-serif;
     margin: auto;
     position: center;
@@ -77,6 +78,17 @@ h2 {
 .center {
     margin: auto;
     text-align: center;
+}
+
+.ov{
+    display: none;
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 200px;
+    width: 200px;
+    background: gray;
 }
 
 .header{
