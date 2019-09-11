@@ -1,3 +1,49 @@
+a{
+    color:currentColor;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Base */
+html{
+    background-color: #5f45bb;
+    background-image: linear-gradient(to bottom right, #180cac, #d054e4);
+    color: #fff;
+    font-family: "Quicksand",sans-serif;
+    font-size: 16px;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-font-smoothing:antialiased;
+    line-height: 1.5;
+    min-height: 100vh;
+    min-width: 300px;
+    overflow-x: hidden;
+    text-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* 2. Shared */ 
+
+ .wallpaper{
+    display: block;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+/* 3. Specific */
+
+.wallpaper{
+    background-image: url("../images/austria.jpg");
+    background-position: center;
+    background-size: cover;
+    opacity: 0.2;
+    position: fixed;
+
+}
+
+
+
+
 /*Main Navigation Bar*/
 .topnav {
     background-color: #333;
@@ -26,7 +72,7 @@
     display: none;
 }
 
-/*Hide all links besides "Home" when the screen < 600 pixels.*/
+/* Hide all links besides "Home" when the screen < 600 pixels.
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {
         display: none;
@@ -57,7 +103,7 @@
 }
 
 body {
-    /* background-image: url(flower.jpg); */
+     background-image: url(flower.jpg);
     background-size: cover;
     font-size: 17px;
     color: black;
@@ -161,4 +207,4 @@ a:visited {
 
 span {
     color: white;
-}
+} 
