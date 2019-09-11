@@ -38,9 +38,22 @@ html{
     background-size: cover;
     opacity: 0.2;
     position: fixed;
-
 }
 
+.content{
+    display: flex;
+    position: relative;
+    min-height: 100vh;
+}
+
+.side{
+    max-height: 20rem;
+    max-width: 20rem;
+}
+
+.about{
+    max-width: 26rem;
+}
 
 
 
@@ -153,34 +166,29 @@ h2 {
     text-align: center;
 }
 
-/* Title of the page inside the table */
 #title {
     font-size: 32px;
     text-decoration: underline;
     text-align: center;
 }
 
-/* Color when hovered over link */
 a:hover {
     background-color: palevioletred;
 }
 
-/* Color after link is visited */
 a:visited {
-    /* background-color: white; */
+    background-color: white;
 }
 
 .zebra tbody tr:nth-child(even) {
     background-color: gray;
 }
 
-/* Quote divider */
 #quote {
     padding-top: 8px;
     text-align: center;
 }
 
-/* Text for the quote divider */
 #quoteText {
     font-size: 26px;
     color: black;
@@ -199,7 +207,6 @@ a:visited {
     color: white;
 }
 
-/* Bold and color the text red for some specific words */
 .boldWords {
     color: red;
     font-weight: bold;
@@ -207,4 +214,4 @@ a:visited {
 
 span {
     color: white;
-} 
+} */
