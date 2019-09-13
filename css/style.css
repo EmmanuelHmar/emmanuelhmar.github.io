@@ -22,7 +22,15 @@ html {
 
 /* 2. Shared */
 
-.job, .button{ font-family: "Montserrat","Quicksand",sans-serif;
+.button,
+.social a {
+    transform-origin: center;
+    transition-duration: 100ms;
+}
+
+.job,
+.button {
+    font-family: "Montserrat", "Quicksand", sans-serif;
     letter-spacing: 0.3em;
     text-transform: uppercase;
 }
@@ -39,31 +47,70 @@ html {
 
 /* 3. Specific */
 
-.job{
-    color:#ffe479;
+.button{
+    background-color: #fff;
+    border-radius: 180193px;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+    color: #9013fe;
+    display: inline-block;
+    font-size: 0.875rem;
+    line-height: 1;
+    padding: 1.25em 2em;
+    text-shadow: none;
+    transition-property: box-shadow,transform;
+    vertical-align: top;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+}
+
+.contact {
+    display: inline-block;
+    margin-top: 1.5rem;
+    vertical-align: top;
+}
+
+.description {
+    font-size: 1.5rem;
+}
+
+.hr {
+    background-color: #ff470f;
+    border: none;
+    content: "";
+    height: 1px;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    transform-origin: center left;
+    width: 4rem;
+}
+
+
+.job {
+    color: #ffe479;
     font-size: 0.75rem;
 }
 
-.name{
+.name {
     font-size: 2.25rem;
     line-height: 1.125;
     margin-bottom: 0.5rem;
 }
+
 .picture {
     padding-top: 100%;
     position: relative;
     width: 100%;
 }
 
-.picture-shadow{
+.picture-shadow {
     border-radius: 180193px;
-    background-image: radial-gradient(#000 0%,rgba(0,0,0,0) 70%);
+    background-image: radial-gradient(#000 0%, rgba(0, 0, 0, 0) 70%);
     position: absolute;
     top: 10%;
 }
 
-.picture-image{
-    border-radius:180193px;
+.picture-image {
+    border-radius: 180193px;
     position: absolute;
 }
 
