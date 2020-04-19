@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-
+<!--TODO 1: Fix the project alignment-->
+<!--TODO: clean up titles and padding, min-height, etc -->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,9 +9,8 @@
     <title> E's Home Page </title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Quicksand" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/minireset.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="stylesheet" type="text/css" href="css/animations.css" />
-    <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script> -->
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/animations.css"/>
     <script defer type="text/javascript" src="js/main.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.10.2/js/all.js" data-auto-replace-svg="nest"></script>
 
@@ -18,167 +18,116 @@
 
 <body>
 
-    <div id="wallpaper" class="wallpaper" data-image="images/austria.jpg"></div>
-    <!--TODO 1: Fix the project alignment-->
-    <div class="topnav" id="myTopNav">
-        <a href="index.html" class="active">Home</a>
-        <a>Bio</a>
-        <a href="#project">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776</a>
-    </div>
+<div id="wallpaper" class="wallpaper" data-image="images/austria.jpg"></div>
 
-    <div class="container"></div>
-    <div class="content">
-        <aside class="side">
-            <figure id="picture" class="picture">
-                <div class="picture-shadow"></div>
-                <img id="pictureImage" class="picture-image" src="images/elh.jpg" srcset="images/elh.jpg 1x,
+<div class="topnav" id="myTopNav">
+    <a href="index.html" class="active">Home</a>
+    <a>Bio</a>
+    <a href="#project">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776</a>
+</div>
+<div class="container"></div>
+
+
+<div class="content">
+    <aside class="side">
+        <figure id="picture" class="picture">
+            <div class="picture-shadow"></div>
+            <img id="pictureImage" class="picture-image" src="images/elh.jpg" srcset="images/elh.jpg 1x,
                 images/elh@2x.jpg 2x,
                 images/elh@3x.jpg 3x" alt="Picture of Emmanuel Hmar" width="320" height="320">
-            </figure>
-        </aside>
+        </figure>
+    </aside>
 
-        <main class="about">
-            <h1 class="name">
-                This is ELH
-            </h1>
-            <p class="job">
-                Software dev, Writer, Idler
+    <main class="about">
+        <h1 class="name">
+            This is ELH
+        </h1>
+        <p class="job">
+            Software dev, Writer, Idler
+        </p>
+        <hr class="hr">
+        <div class="description">
+            <p>
+                Take therefore no thought for the morrow: for the morrow shall take thought for the things of itself.
             </p>
-            <hr class="hr">
-            <div class="description">
-                <p>
-                    I spend my time drinking coffee, watching the days go by
-                </p>
-            </div>
-            <div class="contact">
-                <a class="button" href="mailto:eman.hmar@gmail.com">
-                    Send email
+        </div>
+        <div class="contact">
+            <a class="button" href="mailto:eman.hmar@gmail.com">
+                Send email
+            </a>
+        </div>
+        <ul class="social">
+            <li>
+                <a href="https://github.com/EmmanuelHmar/" target="_blank">
+                    <i class="fab fa-github"></i>
                 </a>
-            </div>
-            <ul class="social">
-                <li>
-                    <a href="https://github.com/EmmanuelHmar/" target="_blank">
-                        <i class="fab fa-github"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://EmmanuelHmar.com/" target="_blank">
-                        <i class="far fa-edit"></i>
-                    </a>
-                </li>
+            </li>
+            <li>
+                <a href="https://EmmanuelHmar.com/" target="_blank">
+                    <i class="far fa-edit"></i>
+                </a>
+            </li>
 
-                <li>
-                    <a>
-                        <i class="fab fa-youtube"></i>
-                    </a>
-                </li>
-            </ul>
-        </main>
+            <li>
+                <a>
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </li>
+        </ul>
+    </main>
+</div>
+
+<section class="center project content" style="min-height: auto; flex-direction: column">
+    <a name="project"></a>
+    <h2 class="name">Projects</h2>
+    <h2>Mizo</h2>
+
+    <img src="mizoapp.png" alt="Mizo Android app" width="350" height="450"/>
+    <p>found on the Android <a href="https://play.google.com/store/apps/details?id=com.emmanuelhmar.mizo"
+                               target="_blank">Play Store</a></p>
+    <hr class="hr">
+</section>
+
+<section class="center content" style="min-height: auto; flex-direction: column">
+    <div id="skills">
+        <h2 class="name">Skills</h2>
+    </div>
+    <div>
+        <ul>
+            <li><span>Proficient: </span>Java, HTML, CSS</li>
+            <li><span>Familiar: </span>Javascript, PHP, Python, Kotlin</li>
+            <li><span>Technologies: </span>Linux, Git, Android, Adobe</li>
+        </ul>
     </div>
 
-    <section class="header">
-        <table class="center">
-            <tr>
-                <th colspan="3">
-                    <h1 id="title"> This too shall pass </h1>
-                </th>
-            </tr>
 
-            <tr>
-                <td colspan="3">
-                    <div id="profilePic" class="center">
+</section>
 
-                        <p id="profileText">
-                            Name: Emmanuel Hmar
-                        </p>
-
-
-                        <p>
-                            <strong>Graduation:</strong> December 2018 <br>
-                            <strong>Major:</strong> Computer Science
-                        </p>
-
-                        <h4 style="text-align: left;">Find me at:</h4>
-                        <ul style="text-align: left">
-                            <li><a href="http://emmanuelhmar.com" target="_blank">Personal site</a>
-                            </li>
-                            <li><a href="https://github.com/EmmanuelHmar" target="_blank">Github</a>
-                            </li>
-                        </ul>
-                    </div>
-                </td>
-            </tr>
-
-            <tr>
-                <td colspan="3">
-                    <div id="quote">
-                        <p id="quoteText">
-                            "Do not worry about tomorrow, for tomorrow will worry about itself."
-                        </p>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="3">
-                    <p class="ov">TEST</p>
-                    <button class="trigger">Close</button>
-                </td>
-            </tr>
-        </table>
-
-        <div class="center ov">
-            <p>Test</p>
-        </div>
-    </section>
-
-    <section class="center">
-
-    </section>
-
-    <section class="center project">
-        <a name="project"></a>
-        <h2>Projects</h2>
-        <h2>Mizo</h2>
-        <img src="mizoapp.png" alt="Mizo Android app" width="350" height="450" />
-        <p>Mizo - found on the Android <a href="https://play.google.com/store/apps/details?id=com.emmanuelhmar.mizo"
-                target="_blank">Play Store</a></p>
-    </section>
-
-
-    <section class="center">
-        <a name="skills"></a>
-        <h2>Skills</h2>
-        <p><span>Proficient: </span>Java, HTML, CSS</p>
-        <p><span>Familiar: </span>Javascript, PHP, Python, Kotlin</p>
-        <p><span>Technologies: </span>Linux, Git, Android, Adobe</p>
-    </section>
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="./js/scripts.js">
-        function myFunction() {
-            var x = document.getElementById("myTopNav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="./js/scripts.js">
+    function myFunction() {
+        var x = document.getElementById("myTopNav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
         }
-    </script>
+    }
+</script>
 
-    <noscript>
-        <style type="text/css">
-            .wallpaper {
-                animation-name: zoomOut;
-            }
+<noscript>
+    <style type="text/css">
+        .wallpaper {
+            animation-name: zoomOut;
+        }
 
-            .picture {
-                animation-name: dropIn;
-            }
-        </style>
-    </noscript>
+        .picture {
+            animation-name: dropIn;
+        }
+    </style>
+</noscript>
 
 </body>
 
