@@ -2,9 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Build a Tribute Page</title>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <title>Tribute Page</title>
+    <link rel="stylesheet" type="text/css" href="../css/minireset.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css"/>
+    <script defer src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <style>
+        .content{
+            flex-direction: column;
+        }
         main{
             text-align: center;
         }
@@ -12,24 +17,30 @@
             text-align: center;
         }
         #image {
+            display:block;
+            margin:auto;
             max-width: 100%;
             height: auto;
         }
     </style>
 </head>
 <body>
-<main id="main">
-    <div id="title">
+<main id="main" class="content">
+
+    <h1 id="title">
         Mapster
-    </div>
+    </h1>
         <figure id="img-div">
             <img src="../images/Mapuia.jpg" id="image" alt="flower">
-            <figcaption id="img-caption">A legend for me</figcaption>
+            <figcaption id="img-caption">Image</figcaption>
         </figure>
-    <p id="tribute-info">A great friend of mine.
+    <p id="tribute-info">Info: A great friend of mine.
     </p>
-        <a id="tribute-link" href="https://mapuiacrisiscenter.com/" target="_blank">Tribute Link</a>
+        <a id="tribute-link" href="https://mapuiacrisiscenter.com/" target="_blank">Link: Tribute Link</a>
 
+    <footer>
+        <a href="../index.html">Go Home</a>
+    </footer>
 </main>
 </body>
 </html>
