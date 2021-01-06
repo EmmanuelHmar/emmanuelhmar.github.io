@@ -24,8 +24,6 @@
   <component name="ChangeListManager">
     <list default="true" id="35ed43e8-332b-4d70-8618-5301a9fcb79d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/tribute-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/tribute-page.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +60,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/PGPRINT" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="project.propDebugger" />
@@ -93,7 +91,8 @@
       <workItem from="1587254582045" duration="4937000" />
       <workItem from="1587270599732" duration="643000" />
       <workItem from="1587318012637" duration="2261000" />
-      <workItem from="1592101918151" duration="4605000" />
+      <workItem from="1592101918151" duration="5549000" />
+      <workItem from="1595596673129" duration="58000" />
     </task>
     <servers />
   </component>
@@ -110,16 +109,18 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="466" y="284" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1592102097733">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="466" y="284" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.860/-1440.0.1440.860@0.0.1440.860" timestamp="1592102097733" />
-    <state x="470" y="120" key="FileChooserDialogImpl" timestamp="1587254676314">
-      <screen x="0" y="0" width="1366" height="723" />
+    <state x="495" y="143" key="FileChooserDialogImpl" timestamp="1595596729768">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="470" y="120" key="FileChooserDialogImpl/0.0.1366.723@0.0.1366.723" timestamp="1587254676314" />
+    <state x="495" y="143" key="FileChooserDialogImpl/0.0.1440.860/-1440.0.1440.860@0.0.1440.860" timestamp="1595596729768" />
     <state x="184" y="0" key="SettingsEditor" timestamp="1587256447215">
       <screen x="0" y="0" width="1366" height="723" />
     </state>
